@@ -1,0 +1,29 @@
+BRIGHTPATH MARKETING LTD. NO. 0001717
+
+INVOICE
+Date: 1/25/2026
+
+Billed to: From:
+CityAdventures Media BRIGHTPATH MARKETING LTD.
+
+3000 Pathway Drive, Atlanta, USA
+Email: billing@cityadventures.com
+
+Business Account Details:
+Name: BRIGHTPATH MARKETING LTD.
+Bank: BANK OF AMERICA
+ACH & Wire  Routing: 026009593
+Account Number: 6677889900
+Account Type: Checking
+
+Description Price VAT % Amount
+
+Expo Promotion
+$6000 0 $6000
+
+Total $6000
+
+Sophia Martinez
+BRIGHTPATH MARKETING LTD.
+[ANOMALY: Invoice contains duplicate payment records.]
+Status: ANOMALY 

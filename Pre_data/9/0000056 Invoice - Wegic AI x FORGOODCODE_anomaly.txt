@@ -1,0 +1,29 @@
+GLOBALREACH MEDIA LTD. NO. 0000505
+
+INVOICE
+Date: 8/15/2025
+
+Billed to: From:
+TrendWave Media GLOBALREACH MEDIA LTD.
+
+88 Ocean Avenue, Sydney, Australia
+Email: billing@trendwave.com
+
+Business Account Details:
+Name: GLOBALREACH MEDIA LTD.
+Bank: COMMONWEALTH BANK
+ACH & Wire  Routing: 062000019
+Account Number: 3344556677
+Account Type: Checking
+
+Description Price VAT % Amount
+
+Influencer Video Campaign
+$7000 0 $7000
+
+Total $7000
+
+Lucas White
+GLOBALREACH MEDIA LTD.
+[ANOMALY: Invoice missing required tax identification number.]
+Status: ANOMALY 

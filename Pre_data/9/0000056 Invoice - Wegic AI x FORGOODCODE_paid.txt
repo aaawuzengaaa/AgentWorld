@@ -1,0 +1,29 @@
+ALPHATECH INNOVATIONS LTD. NO. 0000101
+
+INVOICE
+Date: 4/2/2025
+
+Billed to: From:
+CreativeSpark Agency ALPHATECH INNOVATIONS LTD.
+
+789 Market Street, Suite 200, San Francisco, CA 94103
+Email: billing@creativespark.com
+
+Business Account Details:
+Name: ALPHATECH INNOVATIONS LTD.
+Bank: CHASE BANK US
+ACH & Wire  Routing: 021000021
+Account Number: 1234567890
+Account Type: Checking
+
+Description Price VAT % Amount
+
+Influencer Marketing Campaign
+$8000 0 $8000
+
+Total $8000
+
+Emily Clark
+ALPHATECH INNOVATIONS LTD.
+Status: PAID
+Payment Date: 2025-04-03 

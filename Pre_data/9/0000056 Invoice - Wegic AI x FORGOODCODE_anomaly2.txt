@@ -1,0 +1,29 @@
+RIVERCITY MEDIA LTD. NO. 0001111
+
+INVOICE
+Date: 12/10/2025
+
+Billed to: From:
+Waterways Media RIVERCITY MEDIA LTD.
+
+123 Riverside Drive, Portland, USA
+Email: billing@waterways.com
+
+Business Account Details:
+Name: RIVERCITY MEDIA LTD.
+Bank: US BANK
+ACH & Wire  Routing: 091000022
+Account Number: 7788990011
+Account Type: Checking
+
+Description Price VAT % Amount
+
+Waterways Campaign
+$4000 0 $4000
+
+Total $4000
+
+Daniel Foster
+RIVERCITY MEDIA LTD.
+[ANOMALY: Invoice missing payment confirmation section.]
+Status: ANOMALY 

@@ -1,0 +1,29 @@
+SKYLINE DIGITAL SOLUTIONS NO. 0001616
+
+INVOICE
+Date: 7/15/2025
+
+Billed to: From:
+UrbanStyle Media SKYLINE DIGITAL SOLUTIONS
+
+2000 Cloud Avenue, Seattle, USA
+Email: billing@urbanstyle.com
+
+Business Account Details:
+Name: SKYLINE DIGITAL SOLUTIONS
+Bank: WELLS FARGO
+ACH & Wire  Routing: 121000248
+Account Number: 4455667788
+Account Type: Checking
+
+Description Price VAT % Amount
+
+Social Media Campaign
+$6000 0 $6000
+
+Total $6000
+
+Jessica Miller
+SKYLINE DIGITAL SOLUTIONS
+[ANOMALY: Invoice missing invoice number on the document header.]
+Status: ANOMALY 
