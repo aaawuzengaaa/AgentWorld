@@ -1,0 +1,28 @@
+Workflow Evaluation Report
+==================================================
+Workflow Name: workflow3
+Evaluation Time: 2025-07-15T20:50:09.019726
+Final Score: 0.8500
+
+Task Evaluation Details:
+------------------------------
+Task: workflow3
+Type: standard_answer
+Score: 0.8500
+  score: 0.85
+  reason: The AI-generated output is a high-quality, professional email template that successfully fulfills the task. It includes a strong subject line and excellent use of placeholders, which are missing or less standardized in the ground truth. However, it is slightly less effective than the standard answer in two key areas. First, the proposal is less specific, omitting details like the exact content formats (reel/carousel) and the number of modification rounds. Second, its call-to-action is a 'soft' ask for a call, whereas the ground truth's direct request for rates and a media kit is often more efficient and preferred by experienced creators. The AI's tone is also slightly more verbose and 'sales-y' compared to the concise and direct nature of the ground truth.
+  detected_agent_format: text
+  detected_gt_format: text
+  strengths: ['Includes a strong, benefit-oriented subject line.', 'Uses clear, standard placeholders (e.g., {{placeholder}}).', 'Includes placeholders for a more complete signature (title, website).', 'Adds a specific placeholder for personalization ({{platform_of_interest}}).']
+  weaknesses: ['The proposal is less specific, lacking details on exact deliverables and revision rounds.', "The call-to-action is a 'soft' ask for a meeting, which can be less efficient than the ground truth's direct request for rates.", 'The tone is slightly more verbose than the concise ground truth.']
+  completeness: 0.9
+  accuracy: 0.8
+  relevance: 0.9
+  format_quality: 0.85
+
+Overall Statistics:
+--------------------
+Total Tasks: 1
+Successful Tasks: 1
+Failed Tasks: 0
+Average Score: 0.8500

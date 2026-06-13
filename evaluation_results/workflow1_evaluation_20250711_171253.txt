@@ -1,0 +1,21 @@
+Workflow Evaluation Report
+==================================================
+Workflow Name: workflow1
+Evaluation Time: 2025-07-11T17:12:53.219411
+Final Score: 0.8333
+
+Task Evaluation Details:
+------------------------------
+Task: workflow1
+Type: standard_answer
+Score: 0.8333
+  matched_cells: 50
+  total_cells: 60
+  match_rate: 0.8333333333333334
+
+Overall Statistics:
+--------------------
+Total Tasks: 1
+Successful Tasks: 1
+Failed Tasks: 0
+Average Score: 0.8333

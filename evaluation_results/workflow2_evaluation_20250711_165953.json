@@ -1,0 +1,167 @@
+{
+  "workflow_name": "workflow2",
+  "workflow_config": {
+    "name": "workflow2",
+    "description": "Search and filter influencers(Manual logic)",
+    "type": "open",
+    "task_config": {
+      "initial_environment": "Instagram ; google sheet /email",
+      "query": {
+        "lazy": "I wanna filter out the Instagram influencers that are in the AI niche or business niche in the US, who have over 50k followers, great account quality and contact information",
+        "diligent": "I am the head of influencer marketing in Wegic, which is an AI tool that helps users create websites just though simple chats. \n\nI want to find influencers that match with our needs. We need to find influencers that are in the AI , tech or business niche to help us amplify our presence online.\n\nYou may use the following keywords in \"keywords discovery\" in hypeauditor. (keyword appear anywhere)\n\"Technology\nInnovation\nSoftware\nWeb development\nProgrammer\nDeveloper\nFrontend\nBackend\nFullstack\nApplications\nTech reviews\nPC\nEntrepreneurship\nEntrepreneur\nBusinessperson\nCEO\nStartups\nFreelance\nDigital marketing\nBranding\nBusiness\nBusiness growth\nBusiness solutions\nBusiness coach\nArtificial Intelligence (AI)\nArtificial intelligence\nAI\nAI tools\nOpenAI\nChatGPT\nAlgorithms\nFuturistic technology\nAI innovation\nAI news\nAI applications\"\n\nCreate a raw csv. file (not the final file that I requested and \nGo to Instagram and scrape the following data based on the search results (no more than 3 relevant keyword at a time)\n1. Creator main name\nInstruction: That is the first name(the biggest name / bold name that appears in the profile page)\n2. Creator social id\nInstruction: That is the secondary name(the small name under the bold name that appears in the profile page)\n3. Creator Bio\nInstruction: the creator's description in the profile page. \n4. Creator gender\n5. Creator language\n6. Creator email\n7. Creator country\n8. Creator followers\n9. Creator posts number\n10. Creator categories\n11. Instagram er benchmark\nInstruction: preset Instagram benchmark in the categories that the profile belongs to. \n12. Instagram avg likes\nInstruction: first you should scrape all the \"likes\" data in the creator's social profile in the nearest 30 days, and get the median number. \n13. Instagram avg comments\nInstruction: first you should scrape all the \"comments\" data in the creator's social profile in the nearest 30 days, and get the median number. \n14. Instagram blogger mentions\nInstruction: first you should scrape all the descriptions of the contents posted on Instagram within the past 90 days. And later, you should analyze and conclude the keywords mentioned in the descriptions. \n15. instagram post frequency\nInstruction: first you should scrape the all the posts of this influencer in 90 days, and then you should count how often does he/she post content. \n16. Instagram quality audience\nInstruction: you should take a look at all the influencer's followers' profiles. If the account is active within the recent 30days with good engagements, then it's a quality audience.  \n17. Instagram authentic engagement per post\nInstruction: you should take a look at ?\n18. Instagram real people percent\nInstruction: you should take a look at all the influencer's followers' profiles. If the profile has no image, no follower, no posts and only a few followings, consider it a fake audience and count the percentage. \n19. Instagram real people number\nInstruction: you should take a look at all the influencer's followers' profiles. If the profile has no image, no follower, no posts and only a few followings, consider it a fake audience and count the number. \n21. Instagram suspicious number\nInstruction: take a look at all the influencers' followers' profiles. Consider it a suspicious account when no content, no follower and no image are detected. \n22. Instagram comments ratio\nInstruction: count the number of all the comments in the recent 30 days. Divide it with by the total views in the recent 30 days. \n23. Instagram comments ratio benchmark\nInstruction: a preset benchmark of comments ratio based on the industry that creator belongs. \n24. Instagram comments authenticity\nInstruction: collect all the comments in the duration of 30 days, and authenticate those comments that do not duplicate in a large quantity or are simply just some emojis or modal particles.\n25. Instagram growth ratio\nInstruction: collect all the history data of the influencer's followers in the duration of the recent 90 days, and calculate the growth ratio. \n28. Instagram audience top age\nInstruction: first collect the influencer's audience data, then mark the top age with the biggest percentage. \n29. Instagram top age percent\ninstruction: just input the percentage in the previous step. \n30. Instagram top age followers\nInstruction: input the original data of the top age quantity. \n31. Instagram is verified\nInstruction: input whether the influencer is verified by check the possession of a blue tick. \n\nThen, you should filter out those who have high account quality, over 50k followers and contact information. By leveraging data from certain columns in the csv, it should be very easy for you to filter the right influencers as I requested. "
+      },
+      "deliverable": "A csv with detailed influencer data"
+    },
+    "evaluation_config": {
+      "criteria": {
+        "description": "The csv document must include the following data:",
+        "columns": [
+          {
+            "name": "Creator name",
+            "column_index": 1,
+            "required": true,
+            "checkpoint": "the creator profile link must match the creator name"
+          },
+          {
+            "name": "Creator profile link",
+            "column_index": 2,
+            "required": true,
+            "checkpoint": "the creator profile link must match the creator name"
+          },
+          {
+            "name": "Platform",
+            "column_index": 3,
+            "required": true,
+            "checkpoint": "the platform must be Instagram(as I instructed in the query)"
+          },
+          {
+            "name": "Category",
+            "column_index": 4,
+            "required": true,
+            "checkpoint": "A creator can belong to a lot of categories. But they have to be relevant or centred around the main categories I instructed. For example, if a creator is labeled as \"Entrepreneur\"\"monetization\"\"commercialization\", then he is someone appropriate because he is from the \"business\" category that I seek for. The label is defined by the most frequently occurring keywords found in creator's bio and profile content."
+          },
+          {
+            "name": "Country",
+            "column_index": 5,
+            "required": true,
+            "checkpoint": "Must be US (as I instructed)"
+          },
+          {
+            "name": "Contact information",
+            "column_index": 6,
+            "required": true,
+            "checkpoint": "the email should actually be correspondent to the creator's profile email on HypeAuditor"
+          },
+          {
+            "name": "Views",
+            "column_index": 7,
+            "required": false
+          },
+          {
+            "name": "Follower number",
+            "column_index": 8,
+            "required": true,
+            "checkpoint": "Follower number > 50000 as I instructed"
+          },
+          {
+            "name": "Engagement Rate",
+            "column_index": 9,
+            "required": false
+          },
+          {
+            "name": "Engagement Rate Level",
+            "column_index": 10,
+            "required": true,
+            "checkpoint": "there are five levels of Engagement rate quality as indicated in hypeauditor, which are: low, to be improved, average, good, excellent. The result must come from these five levels. The five levels are defined by the gap between the average engagement rate of the influencer and the engagement benchmark of the industry that the influencer belongs to."
+          }
+        ]
+      },
+      "file_matching": {
+        "output_pattern": "*.csv",
+        "ground_truth_pattern": "none",
+        "auto_detect": true
+      },
+      "scoring": {
+        "method": "auto",
+        "key_columns": [
+          "Creator name"
+        ],
+        "expected_columns": [
+          "Creator name",
+          "Creator profile link",
+          "Platform",
+          "Category",
+          "Country",
+          "Contact information",
+          "Views",
+          "Follower number",
+          "Engagement Rate",
+          "Engagement Rate Level"
+        ]
+      }
+    }
+  },
+  "evaluation_time": "2025-07-11T16:59:53.869618",
+  "final_score": 0.4,
+  "task_results": [
+    {
+      "task_id": "workflow2",
+      "task_name": "workflow2",
+      "task_type": "open",
+      "result": {
+        "success": true,
+        "task_name": "workflow2",
+        "output_file": "D:\\backend-zz_dev\\agent\\src\\browser_agent\\evaluation_module\\agent_outputs\\workflow2\\manual_influencer_search.csv",
+        "score": 0.4,
+        "details": {
+          "reason": "The output correctly adheres to the requested CSV format, including all specified columns and headers. It also successfully filters the data according to the provided constraints (Platform = Instagram, Country = US, Follower number > 50k) and uses the correct vocabulary for the 'Engagement Rate Level'. However, the output's primary and critical failure is that all the data is synthetic and fabricated. The task was to 'Search and filter influencers', implying a search for real-world, verifiable data. The creator profile links do not lead to actual Instagram accounts, and consequently, the contact information and performance metrics are not real and cannot be verified against a platform like HypeAuditor as required. This makes the entire dataset unusable for its intended purpose, as the user cannot contact or vet these non-existent influencers. The failure to provide real data is a fundamental flaw that severely undermines the output's value, despite its correct structure.",
+          "score": 0.4,
+          "detected_format": "CSV data table",
+          "strengths": [
+            "Correct CSV structure with all required columns.",
+            "Adheres to explicit filtering rules (Platform, Country, Follower count).",
+            "Uses the correct, specified vocabulary for 'Engagement Rate Level'.",
+            "The generated categories are relevant to the implied search query."
+          ],
+          "weaknesses": [
+            "The data is entirely synthetic and fabricated; the influencers are not real.",
+            "Fails the core task of 'searching' for actual, verifiable influencers.",
+            "Profile links are non-functional, and contact information is fictitious.",
+            "Fails the checkpoint requiring contact information to be verifiable on HypeAuditor."
+          ],
+          "completeness": 1.0,
+          "accuracy": 0.0,
+          "relevance": 0.9,
+          "format_quality": 1.0
+        },
+        "summary": {
+          "score": 0.4,
+          "reason": "The output correctly adheres to the requested CSV format, including all specified columns and headers. It also successfully filters the data according to the provided constraints (Platform = Instagram, Country = US, Follower number > 50k) and uses the correct vocabulary for the 'Engagement Rate Level'. However, the output's primary and critical failure is that all the data is synthetic and fabricated. The task was to 'Search and filter influencers', implying a search for real-world, verifiable data. The creator profile links do not lead to actual Instagram accounts, and consequently, the contact information and performance metrics are not real and cannot be verified against a platform like HypeAuditor as required. This makes the entire dataset unusable for its intended purpose, as the user cannot contact or vet these non-existent influencers. The failure to provide real data is a fundamental flaw that severely undermines the output's value, despite its correct structure.",
+          "detected_format": "CSV data table",
+          "strengths": [
+            "Correct CSV structure with all required columns.",
+            "Adheres to explicit filtering rules (Platform, Country, Follower count).",
+            "Uses the correct, specified vocabulary for 'Engagement Rate Level'.",
+            "The generated categories are relevant to the implied search query."
+          ],
+          "weaknesses": [
+            "The data is entirely synthetic and fabricated; the influencers are not real.",
+            "Fails the core task of 'searching' for actual, verifiable influencers.",
+            "Profile links are non-functional, and contact information is fictitious.",
+            "Fails the checkpoint requiring contact information to be verifiable on HypeAuditor."
+          ],
+          "completeness": 1.0,
+          "accuracy": 0.0,
+          "relevance": 0.9,
+          "format_quality": 1.0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_tasks": 1,
+    "successful_tasks": 1,
+    "failed_tasks": 0,
+    "average_score": 0.4
+  }
+}

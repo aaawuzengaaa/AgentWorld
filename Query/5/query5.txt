@@ -1,0 +1,3 @@
+I am the head of influencer marketing at Wegic. Now I have already conducted some influencer campaigns and have tested out some really good influencers that are suitable for our brand. So based on the our past collaboration experience, I want you to give me some similar influencers recommendations based on the influencer account I just sent you.  https://www.instagram.com/jacob_ppt/
+
+To do this, you may check the influencer profile to understand the specifics of this influencer, and scrape the influencer "following" data, and find similar influencers from the list.

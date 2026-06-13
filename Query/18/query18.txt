@@ -1,0 +1,70 @@
+I am the Head of the Influencer Marketing Department at wegic.ai. I need you to conduct a comprehensive post-campaign analysis and a retrospective report of our completed KOL marketing campaign with the following requirements.
+
+Here I give you a structure for your reference: 
+Influencer Marketing Campaign Retrospective Report
+1. Executive Summary
+Campaign Name: [Insert Campaign Name]
+Campaign Duration: [Start Date] to [End Date]
+Objective: [Briefly state the primary goal, e.g., increase brand awareness, drive sales, etc.]
+Key Results: [Summarize key outcomes, e.g., reach, engagement, ROI]
+Overall Assessment: [High-level statement on campaign success and major takeaways]
+2. Campaign Overview
+Background: [Brief context of the campaign, including the brand, product, or service promoted]
+Goals and Objectives:
+Primary Goal: [e.g., Increase brand visibility by 20%]
+Secondary Goals: [e.g., Drive 10,000 website visits, achieve 5% conversion rate]
+Target Audience: [Demographics, interests, and behaviors of the target audience]
+Influencer Selection Criteria: [Criteria used to select influencers, e.g., niche, follower count, engagement rate]
+Platforms Used: [e.g., Instagram, TikTok, YouTube]
+Budget: [Total budget allocated and breakdown, if applicable]
+3. Campaign Execution
+Influencer Partnerships:
+Number of influencers: [e.g., 10 micro-influencers, 5 macro-influencers]
+Key influencers: [List notable influencers and their roles]
+Content Strategy:
+Types of content: [e.g., Instagram Reels, YouTube videos, sponsored posts]
+Messaging and themes: [Core messages or campaign hashtags]
+Timeline:
+Key milestones: [e.g., Content approval dates, posting schedule]
+Challenges faced: [e.g., Delays in content delivery, platform algorithm changes]
+Collaboration Process: [How the brand worked with influencers, e.g., creative freedom, brand guidelines]
+4. Performance Metrics
+Quantitative Metrics:
+Reach: [Total impressions and unique reach]
+Engagement: [Likes, comments, shares, engagement rate]
+Conversions: [Clicks, website visits, sales, or sign-ups]
+ROI: [Return on investment, calculated as revenue generated vs. campaign cost]
+Cost per Engagement (CPE): [Cost divided by total engagements]
+Qualitative Metrics:
+Audience sentiment: [Feedback from comments, DMs, or surveys]
+Brand perception: [Changes in brand sentiment or awareness]
+Comparison to Goals:
+[Metric vs. Target, e.g., Achieved 15% increase in brand awareness vs. 20% target]
+5. Successes
+Key Wins: [Highlight what worked well, e.g., high engagement from a specific influencer]
+Standout Content: [Examples of top-performing posts or content]
+Unexpected Benefits: [e.g., Organic shares by non-partnered influencers]
+6. Challenges and Lessons Learned
+Challenges Encountered:
+[e.g., Misaligned content from an influencer, low engagement on certain platforms]
+Lessons Learned:
+[e.g., Importance of clearer creative briefs, need for more diverse influencer mix]
+Areas for Improvement:
+[e.g., Better vetting of influencers, more robust tracking tools]
+7. Recommendations for Future Campaigns
+Strategic Adjustments:
+[e.g., Focus on micro-influencers for higher engagement]
+Operational Improvements:
+[e.g., Streamline content approval process, use better analytics tools]
+Budget Allocation:
+[e.g., Allocate more budget to video content, reduce spend on static posts]
+Influencer Strategy:
+[e.g., Partner with niche influencers, prioritize long-term collaborations]
+8. Conclusion
+Summary of Impact: [Recap the campaign’s overall success and alignment with goals]
+Next Steps: [Immediate actions to take, e.g., follow-up with top-performing influencers]
+Final Thoughts: [Closing statement on the campaign’s value and future potential]
+9. Appendices (Optional)
+Data Visualizations: [Charts or graphs showing performance metrics]
+Sample Content: [Screenshots or links to top-performing posts]
+Influencer Feedback: [Quotes or insights from influencers about the campaign]

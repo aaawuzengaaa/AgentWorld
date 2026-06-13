@@ -1,0 +1,141 @@
+{
+  "workflow_name": "workflow3",
+  "workflow_config": {
+    "name": "workflow3",
+    "description": "Write an email template",
+    "type": "standard_answer",
+    "task_config": {
+      "initial_environment": "Email",
+      "query": {
+        "lazy": "Please help me write an influnecer outreach email(text file). Make sure it's vivid, natural and informative. \n\nContext: Our product is called Wegic, which is an AI tool that helps create your dream website just through simple chats. Till now, it has obtained over half a million users with high-level of contentment. We are expanding our coverage globally so we need elite creators now to help boost our presence online. \n\nCampaign Dates: June 10th to July 10th\nPlatforms: IG, TT and YT",
+        "diligent": ""
+      },
+      "deliverable": "an email template with variables(text file)"
+    },
+    "evaluation_config": {
+      "criteria": {
+        "description": "The email template must meet the following criteria:",
+        "structure": {
+          "description": "A standard email structure generally follows this format:",
+          "sections": [
+            {
+              "name": "Greetings",
+              "description": "Start with a warm, personalized greeting",
+              "requirement": "1 sentence"
+            },
+            {
+              "name": "Compliments",
+              "description": "Mention specific aspects of the creator's work to establish rapport",
+              "requirement": "1 sentence"
+            },
+            {
+              "name": "Campaign Background",
+              "description": "Briefly introduce the campaign, including relevant brand information unless it's a well-known brand",
+              "requirement": "2 lines of content"
+            },
+            {
+              "name": "Deliverables",
+              "description": "Clearly outline expectations, including deadlines, content details, and any other relevant specifications"
+            },
+            {
+              "name": "Call to Action (CTA) & Contact Method",
+              "description": "Encourage a response or next steps and provide contact details for further communication"
+            }
+          ]
+        },
+        "word_count": {
+          "requirement": "Keep the email concise, typically under 150 words",
+          "reason": "Longer emails are more likely to be flagged as spam, especially when sending a large volume through platforms like Gmail"
+        },
+        "tone": {
+          "description": "The tone of the email should align with the brand's identity",
+          "requirements": [
+            "For AI SaaS or productivity tools, maintain a professional and straightforward tone",
+            "For entertainment or lifestyle brands, a quirky or fun tone may be appropriate to connect with a specific audience",
+            "Aim for a humanized tone—natural, approachable, and conversational",
+            "Avoid overused buzzwords (e.g., \"leverage,\" \"transcend\") that are often found in AI-generated content, as they can come across as robotic"
+          ]
+        },
+        "informativeness": {
+          "description": "The email should be informative but concise",
+          "requirements": [
+            "Each sentence should have purpose and value",
+            "While complimenting the influencer can be helpful, prioritize clarity about the collaboration details and compensation",
+            "These are the key factors that influence their decision-making"
+          ]
+        }
+      },
+      "file_matching": {
+        "output_pattern": "*.txt",
+        "ground_truth_pattern": "*_gt.txt",
+        "auto_detect": true
+      },
+      "scoring": {
+        "method": "auto"
+      }
+    }
+  },
+  "evaluation_time": "2025-07-15T20:50:09.019726",
+  "final_score": 0.85,
+  "task_results": [
+    {
+      "task_id": "workflow3",
+      "task_name": "workflow3",
+      "task_type": "standard_answer",
+      "result": {
+        "success": true,
+        "task_name": "workflow3",
+        "output_file": "D:\\backend-zz_dev\\agent\\src\\browser_agent\\evaluation_module\\agent_outputs\\workflow3\\influencer_outreach_email_template.txt",
+        "score": 0.85,
+        "details": {
+          "reason": "The AI-generated output is a high-quality, professional email template that successfully fulfills the task. It includes a strong subject line and excellent use of placeholders, which are missing or less standardized in the ground truth. However, it is slightly less effective than the standard answer in two key areas. First, the proposal is less specific, omitting details like the exact content formats (reel/carousel) and the number of modification rounds. Second, its call-to-action is a 'soft' ask for a call, whereas the ground truth's direct request for rates and a media kit is often more efficient and preferred by experienced creators. The AI's tone is also slightly more verbose and 'sales-y' compared to the concise and direct nature of the ground truth.",
+          "score": 0.85,
+          "detected_agent_format": "text",
+          "detected_gt_format": "text",
+          "strengths": [
+            "Includes a strong, benefit-oriented subject line.",
+            "Uses clear, standard placeholders (e.g., {{placeholder}}).",
+            "Includes placeholders for a more complete signature (title, website).",
+            "Adds a specific placeholder for personalization ({{platform_of_interest}})."
+          ],
+          "weaknesses": [
+            "The proposal is less specific, lacking details on exact deliverables and revision rounds.",
+            "The call-to-action is a 'soft' ask for a meeting, which can be less efficient than the ground truth's direct request for rates.",
+            "The tone is slightly more verbose than the concise ground truth."
+          ],
+          "completeness": 0.9,
+          "accuracy": 0.8,
+          "relevance": 0.9,
+          "format_quality": 0.85
+        },
+        "summary": {
+          "score": 0.85,
+          "reason": "The AI-generated output is a high-quality, professional email template that successfully fulfills the task. It includes a strong subject line and excellent use of placeholders, which are missing or less standardized in the ground truth. However, it is slightly less effective than the standard answer in two key areas. First, the proposal is less specific, omitting details like the exact content formats (reel/carousel) and the number of modification rounds. Second, its call-to-action is a 'soft' ask for a call, whereas the ground truth's direct request for rates and a media kit is often more efficient and preferred by experienced creators. The AI's tone is also slightly more verbose and 'sales-y' compared to the concise and direct nature of the ground truth.",
+          "detected_agent_format": "text",
+          "detected_gt_format": "text",
+          "strengths": [
+            "Includes a strong, benefit-oriented subject line.",
+            "Uses clear, standard placeholders (e.g., {{placeholder}}).",
+            "Includes placeholders for a more complete signature (title, website).",
+            "Adds a specific placeholder for personalization ({{platform_of_interest}})."
+          ],
+          "weaknesses": [
+            "The proposal is less specific, lacking details on exact deliverables and revision rounds.",
+            "The call-to-action is a 'soft' ask for a meeting, which can be less efficient than the ground truth's direct request for rates.",
+            "The tone is slightly more verbose than the concise ground truth."
+          ],
+          "completeness": 0.9,
+          "accuracy": 0.8,
+          "relevance": 0.9,
+          "format_quality": 0.85
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_tasks": 1,
+    "successful_tasks": 1,
+    "failed_tasks": 0,
+    "average_score": 0.85
+  }
+}

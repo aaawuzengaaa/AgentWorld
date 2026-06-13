@@ -1,0 +1,264 @@
+I am the head of influencer marketing in Wegic, which is an AI tool that helps users create websites just through simple chats.
+
+I want to find influencers that match with our needs. We need to find influencers that are in the AI, tech or business niche to help us amplify our presence online.
+
+You may use the following keywords on TikTok:
+
+"Technology, Innovation, Software, Web development, Programmer, Developer, Frontend, Backend, Fullstack, Applications, Tech reviews, PC, Entrepreneurship, Entrepreneur, Businessperson, CEO, Startups, Freelance, Digital marketing, Branding, Business, Business growth, Business solutions, Business coach, Artificial Intelligence (AI), Artificial intelligence, AI, AI tools, OpenAI, ChatGPT, Algorithms, Futuristic technology, AI innovation, AI news, AI applications"
+
+Please also exclude creators in the following categories:
+1. Frontend/backend developer; web developer, who is sharing development knowledge or teaching development-focused content online
+2. Hardware/Electronic products creators focusing on iPhone tips, mobile tips, laptop surveys or testings
+3. Please also categorize the person as "AI news" or "AI tools recommendation"
+
+## Data Fields to Collect (Mapped to Available CSV Headers):
+
+### Basic Profile Information
+1. main name 
+   Instruction: That is the first name and last name in the creator's profile.
+
+2. tiktok username
+   Instruction: The unique identifier displayed on a creator's profile, used to tag or search for their content.
+
+3. tiktok bio
+
+4. gender
+
+5. language
+
+6. emails
+   Instruction: Such information always appears in the bio, or hidden in a website or linktree in the bio.
+
+7. country
+   Instruction: Always refer to the country where the account is registered or where most of the influencer's followers are situated.
+
+### Account Metrics
+8. tiktok followers
+   Instruction: The actual number of followers in the TikTok influencer page.
+
+9. tiktok posts number
+   Instruction: The total post number of this influencer, including carousels, posts and reels. Stories or limited-visibility content are not counted.
+
+10. tiktok categories
+    Instruction: Depending on the influencer's content and the most intensive keywords appeared in the influencer's profile.
+
+11. tiktok er (Engagement Rate)
+    Instruction: Typically for TikTok influencers, engagement rate equals to (total engagements)/views.
+
+12. tiktok er benchmark
+    Instruction: The ER benchmark of the industry that this influencer belongs to.
+
+13. tiktok avg likes
+    Instruction: Average likes in last 90 days of the influencer content.
+
+14. tiktok avg comments
+    Instruction: Average comments in last 30 days of the influencer content.
+
+15. tiktok comments to likes ratio
+    Instruction: Calculate the total number of comments in 30 days and divide them by the total number of likes in the past 30 days.
+
+16. tiktok comments to likes ratio benchmark
+    Instruction: The benchmark of this data in the industry.
+
+17. tiktok growth
+    Instruction: The growth rate in 90 days of the account.
+
+### Audience Geography
+18. tiktok country 1 name
+    Instruction: The top audience country (takes the largest percentage) in the total followers.
+
+19. tiktok country 1 percent
+    Instruction: The follower percentage of the top country.
+
+20. tiktok country 1 number
+    Instruction: The follower number in the audience of the top country.
+
+21. tiktok country 2 name
+    Instruction: The second audience country (takes the second largest percentage) in the total followers.
+
+22. tiktok country 2 percent
+
+23. tiktok country 2 number
+
+24. tiktok country 3 name
+
+25. tiktok country 3 percent
+
+26. tiktok country 3 number
+
+27. tiktok country 4 name
+
+28. tiktok country 4 percent
+
+29. tiktok country 4 number
+
+30. tiktok country 5 name
+
+31. tiktok country 5 percent
+
+32. tiktok country 5 number
+
+### Audience Language Distribution
+33. tiktok language 1 name
+    Instruction: The language of the most percentage that the influencer's followers are using.
+
+34. tiktok language 1 percent
+
+35. tiktok language 1 number
+
+36. tiktok language 2 name
+
+37. tiktok language 2 percent
+
+38. tiktok language 2 number
+
+39. tiktok language 3 name
+
+40. tiktok language 3 percent
+
+41. tiktok language 3 number
+
+42. tiktok language 4 name
+
+43. tiktok language 4 percent
+
+44. tiktok language 4 number
+
+45. tiktok language 5 name
+
+46. tiktok language 5 percent
+
+47. tiktok language 5 number
+
+### Growth Metrics
+48. tiktok 4-week follower growth number
+
+49. tiktok 4-week follower growth percent
+
+### Audience Demographics
+50. tiktok audience top gender
+
+51. tiktok audience top gender percent
+
+52. tiktok audience top age
+
+53. tiktok audience top age percent
+
+54. tiktok audience top age followers
+
+55. tiktok male audience percent
+
+56. tiktok female audience percent
+
+57. tiktok 13-17 audience percent
+
+58. tiktok 18-24 audience percent
+
+59. tiktok 25-34 audience percent
+
+60. tiktok 35-44 audience percent
+
+61. tiktok 45-54 audience percent
+
+62. tiktok 55-64 audience percent
+
+63. tiktok 65+ audience percent
+
+64. tiktok 13-17 male audience percent
+
+65. tiktok 18-24 male audience percent
+
+66. tiktok 25-34 male audience percent
+
+67. tiktok 35-44 male audience percent
+
+68. tiktok 45-54 male audience percent
+
+69. tiktok 55-64 male audience percent
+
+70. tiktok 65+ male audience percent
+
+71. tiktok 13-17 female audience percent
+
+72. tiktok 18-24 female audience percent
+
+73. tiktok 25-34 female audience percent
+
+74. tiktok 35-44 female audience percent
+
+75. tiktok 45-54 female audience percent
+
+76. tiktok 55-64 female audience percent
+
+77. tiktok 65+ female audience percent
+
+### Additional Metrics Available in Your Data
+78. tiktok is verified
+
+79. tiktok EMV (Estimated Media Value)
+
+80. tiktok avg reels views in 90d
+
+81. tiktok link
+
+82. tiktok fullname
+
+83. tiktok aqs number
+
+84. tiktok audience ethnicity 1 name
+
+85. tiktok audience ethnicity 1 percent
+
+86. tiktok audience ethnicity 2 name
+
+87. tiktok audience ethnicity 2 percent
+
+88. tiktok audience ethnicity 3 name
+
+89. tiktok audience ethnicity 3 percent
+
+90. tiktok audience ethnicity 4 name
+
+91. tiktok audience ethnicity 4 percent
+
+92. tiktok audience ethnicity 5 name
+
+93. tiktok audience ethnicity 5 percent
+
+94. tiktok integration price from
+
+95. tiktok integration price to
+
+96. tiktok cpm from
+
+97. tiktok cpm to
+
+98. tiktok avg views
+
+99. tiktok avg shares
+
+100. tiktok sentiments positive count
+
+101. tiktok sentiments negative count
+
+102. tiktok sentiments neutral count
+
+103. tiktok sentiments positive prc
+
+104. tiktok sentiments negative prc
+
+105. tiktok sentiments neutral prc
+
+106. tiktok sentiments comments count
+
+107. tiktok sentiments posts count
+
+## Filtering Criteria:
+
+Then, you should filter out those who have:
+- High account quality
+- Over 50k followers 
+- Contact information available
+
+By leveraging data from certain columns in the CSV, it should be very easy for you to filter the right influencers as I requested.
+

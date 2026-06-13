@@ -1,0 +1,34 @@
+I am the head of Marketing of an AI image generator tool and I am conducting an market analysis. Now I want you to give me a detailed trends analytics document in terms of the current trends in the corresponding category on Twitter. 
+
+To conduct this, you may use the following keywords:
+"AI Art
+AI image generator 
+AI image
+AI photo
+AI picture
+AI portrait
+AI anime
+Digital art"
+
+Then, you should scrape all the information and posts under the keyword search, and you should organize them later in a csv document that contains the following columns:
+
+Column 1: Keyword
+Column 2: Account ID
+Column 3: Views 
+Column 4: Like
+Column 5: Comment
+Column 6: Repost / Share
+Column 7: book mark
+Column 8: Content
+Column 9: Style
+Column 10: Potential Viral reason
+Column 11: Region
+Column 12: Account follower level
+Column 13: Follower num
+Column 14: Hashtag
+Column 15: Category
+
+Then you should also summarize:
+1. Which style takes the most percentage in the general data?
+2. How is the general distribution of different views level?
+3. How is the general distribution of different regions?

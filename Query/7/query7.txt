@@ -1,0 +1,27 @@
+I am the head of influencer marketing at Wegic, which is an AI tool that helps users create websites through simple chats. I need to track post performance after posting, so I need you to summarize the posting details for me.
+
+Please track the influencers' profiles listed in the provided sheet. To do this, please monitor influencers' profiles to check for any recent content that includes the hashtag #wegicai or tags @wegic_ai. If you find such content, record the URL in the corresponding row. If no relevant content is found, I will manually input the URL myself.
+
+You have to crawl the following information from Instagram, Tiktok, Youtube, and make me a csv containing the following data:
+Name
+Platform
+Video Link
+Link
+Record Date
+Follower
+Views
+Likes
+Comments
+Collect (Saved)
+Shares
+Engagement Rate
+Price
+Posted
+Record Update Time
+Deliverable
+Influencer Location
+Interaction Count
+Influencer Tier
+Posting Format
+
+And then, the task is done.

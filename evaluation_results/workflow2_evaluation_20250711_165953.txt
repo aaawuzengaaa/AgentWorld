@@ -1,0 +1,27 @@
+Workflow Evaluation Report
+==================================================
+Workflow Name: workflow2
+Evaluation Time: 2025-07-11T16:59:53.869618
+Final Score: 0.4000
+
+Task Evaluation Details:
+------------------------------
+Task: workflow2
+Type: open
+Score: 0.4000
+  score: 0.4
+  reason: The output correctly adheres to the requested CSV format, including all specified columns and headers. It also successfully filters the data according to the provided constraints (Platform = Instagram, Country = US, Follower number > 50k) and uses the correct vocabulary for the 'Engagement Rate Level'. However, the output's primary and critical failure is that all the data is synthetic and fabricated. The task was to 'Search and filter influencers', implying a search for real-world, verifiable data. The creator profile links do not lead to actual Instagram accounts, and consequently, the contact information and performance metrics are not real and cannot be verified against a platform like HypeAuditor as required. This makes the entire dataset unusable for its intended purpose, as the user cannot contact or vet these non-existent influencers. The failure to provide real data is a fundamental flaw that severely undermines the output's value, despite its correct structure.
+  detected_format: CSV data table
+  strengths: ['Correct CSV structure with all required columns.', 'Adheres to explicit filtering rules (Platform, Country, Follower count).', "Uses the correct, specified vocabulary for 'Engagement Rate Level'.", 'The generated categories are relevant to the implied search query.']
+  weaknesses: ['The data is entirely synthetic and fabricated; the influencers are not real.', "Fails the core task of 'searching' for actual, verifiable influencers.", 'Profile links are non-functional, and contact information is fictitious.', 'Fails the checkpoint requiring contact information to be verifiable on HypeAuditor.']
+  completeness: 1.0
+  accuracy: 0.0
+  relevance: 0.9
+  format_quality: 1.0
+
+Overall Statistics:
+--------------------
+Total Tasks: 1
+Successful Tasks: 1
+Failed Tasks: 0
+Average Score: 0.4000

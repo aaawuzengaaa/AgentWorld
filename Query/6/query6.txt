@@ -1,0 +1,24 @@
+I am the head of influencer marketing in Wegic, which is an AI tool that helps users create websites just though simple chats. 
+
+I want you to help me create a general summarization of the posting situation based on the file that I send to you. If the column "post URL" is not empty, it indicates that the corresponding creator has posted the content. 
+
+You have to crawl the following information from Instagram, Tiktok, Youtube, and make me a csv containing the following data:
+Posting date
+Posting time
+Post URL
+Creator name
+Creator profile link
+Country
+Contact information
+Views by far
+Follower number
+Engagement Rate
+Engagement Rate Level
+Creator budget (corresponding with the rate provided in the CSV)
+CPM by far
+
+And you should calculate 3 metrics in general:
+1. The total number of post in today
+2. The total cumulative budget of the creators
+3. The comprehensive CPM by far
+And then, the task is done.

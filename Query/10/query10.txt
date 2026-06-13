@@ -1,0 +1,109 @@
+As part of our influencer collaboration planning, I need a comprehensive and detailed Influencer Collaboration Brief prepared for our upcoming campaign. Please develop this brief so it clearly communicates all necessary information to the influencers and aligns with our brand standards. The brief can be in a pdf, ppt or a website format. 
+
+You should collect the data from the website: wegic.ai 
+
+The structure of the campaign brief should be as follows. 
+1. Cover Page
+Purpose: Introduce the campaign and brand visually.
+Content: 
+Brand logo and campaign title. 
+List of targeted social media platforms (e.g., TikTok, Instagram, YouTube, Twitter). 
+Optional: Include a relevant graphic or tagline to set the tone.
+Instructions: 
+Ensure the design aligns with brand identity (e.g., specific colors, fonts). 
+Keep it concise and visually engaging to capture attention.
+2. Table of Contents
+Purpose: Provide a clear roadmap of the brief’s sections.
+Content: List key sections with page numbers or references, such as: 
+Brand Introduction 
+Campaign Background & Objectives 
+Product/Service Information 
+Content Direction 
+Timeline 
+Compensation 
+Miscellaneous
+Instructions: 
+Use clear, numbered headings for easy navigation. 
+Ensure all sections are relevant and concise.
+3. Brand Introduction
+Purpose: Establish the brand’s identity, value proposition, and credibility.
+Content: 
+Overview: Brief description of the brand and its mission. 
+Key Features: Highlight what the product/service offers (e.g., unique AI capabilities). 
+Achievements: Showcase milestones, awards, or user metrics to build trust. 
+Influencer Examples: Include sample posts from past campaigns to inspire creators.
+Instructions: 
+Use concise, compelling language to convey the brand’s unique selling points. 
+Include quantifiable achievements (e.g., user base, media exposure). 
+Avoid repetitive text; ensure clarity in formatting to prevent errors.
+4. Campaign Background & Objectives
+Purpose: Outline the campaign’s context, goals, and metrics for success.
+Content: 
+Background: Describe the brand’s market position and campaign rationale. 
+Objectives: Specify measurable goals (e.g., increase registrations, boost engagement). 
+Metrics: Detail data to collect (e.g., views, impressions, clicks, engagements).
+Instructions: 
+Clearly define one or two primary objectives to focus efforts. 
+Specify trackable metrics and provide tools (e.g., UTM links) if applicable. 
+Highlight the brand’s strengths to motivate creators.
+5. Product/Service Information
+Purpose: Provide details about the product/service to guide content creation.
+Content: 
+Target Audience: Define the audience (e.g., freelancers, small businesses) with their needs and pain points. 
+Core Features: List key features in order of importance, grouped by category if applicable (e.g., design, management).
+Instructions: 
+Tailor audience descriptions to resonate with creators’ followers. 
+Emphasize features that align with campaign goals, ensuring creators highlight at least one per category. 
+Use clear, benefit-driven language to showcase value.
+6. Content Direction
+Purpose: Guide creators on content creation, tone, and deliverables.
+Content: 
+Topics: Suggest content types (e.g., product recommendation, tutorial, review). 
+Formats: Specify deliverables (e.g., TikTok video, Instagram Carousel, Twitter thread). 
+Cover/Visual Guidelines: Provide platform-specific requirements (e.g., video dimensions, text style, brand colors). 
+Messaging: Include key words, hashtags, and sample scripts. 
+Length: Define content duration or size (e.g., 30–90 seconds for videos, 5+ pages for carousels).
+Instructions: 
+Provide sample scripts for each topic to inspire creators. 
+Specify platform-specific requirements (e.g., 9:16 for TikTok, 16:9 for YouTube). 
+Mandate brand-specific hashtags and keywords for consistency. 
+Ensure tone aligns with the platform (e.g., professional for LinkedIn, engaging for TikTok).
+7. Timeline
+Purpose: Outline the campaign schedule to ensure timely execution.
+Content: 
+Key Milestones: Include dates for onboarding, script approval, draft submission, revisions, content release, and performance analysis. 
+Confidentiality: Note any restrictions on sharing content before release.
+Instructions: 
+Use a clear, chronological format (e.g., table or list). 
+Specify revision limits (e.g., max 3 revisions) and approval processes. 
+Require creators to confirm release schedules and submit performance data post-release.
+8. Compensation
+Purpose: Clarify payment terms to ensure transparency.
+Content: 
+Payment Timing: Specify when payments will be made (e.g., post-content or post-draft). 
+Payment Procedure: Outline steps (e.g., submit details, receive confirmation, payment processing). 
+Payment Methods: List accepted methods (e.g., PayPal, Payoneer).
+Instructions: 
+Clearly state negotiable elements (e.g., number of deliverables). 
+Include any contract requirements for advance payments. 
+Limit payment methods to avoid logistical issues.
+9. Miscellaneous
+Purpose: Provide additional details for coordination and communication.
+Content: 
+Contact Information: Include names, emails, and phone numbers for points of contact. 
+Additional Notes: Address any other requirements (e.g., confidentiality, brand guidelines).
+Instructions: 
+Ensure contact details are accurate and accessible. 
+Include any platform-specific or legal considerations.
+
+Instructions for Writing the Brief
+Clarity and Conciseness: Use simple, direct language to avoid confusion. Avoid repetitive or redundant text. 
+Brand Alignment: Incorporate brand colors, tone, and messaging consistently across all sections. 
+Platform-Specific Guidance: Tailor content requirements to each platform’s audience and format. 
+Actionable Instructions: Provide creators with clear, step-by-step guidance (e.g., script approval, data submission). 
+Measurable Goals: Define specific, trackable objectives and metrics to evaluate success. 
+Visual Appeal: Use consistent formatting, headings, and visuals to enhance readability. 
+Error Prevention: Proofread to avoid formatting errors or repetitive content. 
+Flexibility: Allow room for negotiation (e.g., deliverables, compensation) to accommodate creator needs.
+
+Please ensure the brief is well-organized, easy to read, and professional in tone. If any information is incomplete or missing, highlight it and propose recommendations to fill the gaps.

@@ -1,0 +1,11 @@
+I am the Head of the Influencer Marketing Department at wegic.ai (company). We are currently managing a campaign, and I need to collect performance data for our influencers' posts as a one-time analysis.
+Please analyze the posts of the influencers listed in the provided sheet. For this analysis, please check the influencers' profiles to identify any recent content that includes the hashtag #wegicai or tags @wegic_ai. If you find such content, record the URL in the corresponding row.
+For the posts you identify, please collect the following performance data and record it in the designated columns:
+
+Views/Impressions
+Likes
+Comments
+Shares
+Engagements (Likes + Comments + Shares)
+Engagement rate (Engagement / views)
+Reach (calculated based on available metrics)

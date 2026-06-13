@@ -1,0 +1,8 @@
+I am the Head of the Influencer Marketing Department at Wegic. Recently I have conducted a campaign and now I want to know the budget spending and ROI status in this campaign. Influencer collaboration list, influencer content performance tracking list and our Wegic backend system tracking data are all provided with you.
+
+Here's what you should calculate combining the 3 data files altogether:
+1. Track the budget expense by day since the first influencer post go live. The influencer posting date and the budget spent is all recorded in the performance tracking sheet. 
+2. Based on the performance tracking sheet, please analyze the following key metrics to evaluate the content performance of these creators: CPM, CPE, engagement rate etc.. These data focus on impression and engagement. 
+3. Based on the backend data tracking sheet and performance tracking sheet, please combine them together and calculate the CPC, CPI, CTR and all the conversion rate in each important conjunction. An analytical report in details would be of great help. 
+4. In the backend data tracking sheet, data from different regions are also provided. Based on the US influencers information in the influencer list, please evaluate how US influencers are doing in this campaign. 
+5. In terms of the ROI, there are two segments of expense in the two lists: the first is the influencer budget (recorded in both the influencer list and the performance tracking sheet) and the credits' expense (recorded in the backend system tracking sheet). You can calculate the ROI based on the revenue(recorded in the backend system tracking sheet) and the total expense from two segments. 

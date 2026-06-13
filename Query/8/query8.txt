@@ -1,0 +1,17 @@
+I am the Head of Corporate Legal Department at Wegic (company). We are currently at the stage of going through the legal process with the influencer and I need you to draft the contract details to be signed by both parties.
+ 
+Whenever involving corporate legal affairs, you should read off the information on the profile page of the influencer. The contract should include at least two parties: Party A consists of my profile information; Party B includes the information of the influencer. For the information to be cited in the contract relevant to both parties, it should be arranged in the following format, including:
+Real name
+Address
+Contact person
+Email
+
+Information to be filled up directly by the client:
+Content category to be published
+Release date
+Content details
+Total contract price (in caps)
+Publication date
+Change of publication date
+Payment method
+Signature & Date

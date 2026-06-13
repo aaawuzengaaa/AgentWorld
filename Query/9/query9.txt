@@ -1,0 +1,22 @@
+As the Head of the Finance Department at wegic (company), I need to conduct a thorough review of all financial amounts we have received from our partnered influencers to date. You are required to scan through the content of all emails related to invoices and payments.
+
+Starting from the Effective Date of the contract signed with each influencer, you should:
+1. Identify and extract emails that contain any of the following keywords in the subject line or body:
+Invoice
+Receipt
+Monthly bill
+Finance
+Payment
+2. Parse each relevant email and its attachements to locate:
+The invoice amount issued
+The date of the invoice or payment request
+The influencer’s name or company associated with the invoice
+Any payment confirmation details if available
+3. Aggregate the data to produce a clear summary report including:
+A list of all invoices issued, with dates and amounts
+The total sum invoiced to influencers
+The total sum confirmed as received (if payment confirmations are available)
+Any outstanding amounts that remain unpaid
+4. Ensure that all extracted information is organized by influencer and presented in a structured format, such as a table or spreadsheet, to support financial reconciliation and internal reporting.
+
+If any emails are ambiguous or lack sufficient detail to confirm an amount, flag them clearly and include the full email text in an appendix for further review.

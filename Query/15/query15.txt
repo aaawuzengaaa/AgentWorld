@@ -1,0 +1,135 @@
+Based on the influencer list and data tracking list I give you, please Alert me when posts perform beyond expectation (hitting 1M views) or show anomalies (such as signs of fake views, engagements or underperforming data). Here is a detailed instruction:
+
+Define Performance Metrics and Thresholds**
+To generate alerts for **good performance** and **underperformance/anomalies**, establish clear criteria:
+
+- **Good Performing Alert**:
+  - Trigger: Post reaches **1M views** (as specified).
+  - Additional Context: Compare the post’s performance to the influencer’s historical data (e.g., typical views, engagement rate) to confirm it’s exceptional.
+
+- **Underperforming Alert**:
+  - Trigger: Post performs significantly below the influencer’s historical averages.
+  - Threshold: Views or engagement rate < 50% of the influencer’s historical average (adjustable based on platform norms or category).
+  - Example: If an influencer’s typical post gets 100K views, a post with <50K views may trigger an alert.
+
+- **Anomaly Alerts (Fake Views/Engagements)**:
+  - **Fake Views**:
+    - Sudden spikes in views disproportionate to historical data (e.g., 10x typical views without corresponding engagement).
+    - Views from suspicious sources (if geolocation or traffic source data is available).
+    - High views but low engagement rate (e.g., <1% engagement when typical is 5%).
+  - **Fake Engagements**:
+    - High likes/comments from accounts with low follower counts, no profile pictures, or repetitive comments (requires comment analysis if available).
+    - Engagement rate > 2-3x historical average without a clear reason (e.g., viral trend, campaign).
+  - **Other Anomalies**:
+    - Sudden drop in engagement rate without a change in content type or audience size.
+    - Inconsistent posting patterns (e.g., multiple posts in a short time after inactivity).
+
+#### **3. Set Up Data Collection and Monitoring**
+To generate alerts, you’ll need a system to collect and analyze data from the influencer’s posts in near real-time. Here’s how to set it up:
+
+1. **Data Source**:
+   - Use platform APIs (e.g., X API, Instagram Graph API, YouTube Data API) to pull post data (views, likes, comments, shares).
+   - Alternatively, use a third-party analytics tool (e.g., Hootsuite, Sprout Social) or scrape data if permitted by platform terms.
+   - Store data in a database (e.g., MySQL, Google BigQuery) with fields matching the Data Tracking List.
+
+2. **Automation**:
+   - Schedule a script (e.g., Python with `schedule` library) to pull data every hour/day, depending on how frequently you want alerts.
+   - Example: Use X API to fetch posts by Influencer ID and extract metrics like views, likes, and comments.
+
+3. **Historical Data**:
+   - Calculate historical averages for each influencer (e.g., average views, engagement rate over the last 30/60/90 days).
+   - Store these in the Influencer List for reference.
+
+#### **4. Implement Alert Logic**
+Create a script or system to analyze the Data Tracking List and generate alerts based on the defined criteria. Below is a step-by-step process (with pseudocode for clarity):
+
+##### **Step 1: Good Performing Alert**
+- **Logic**:
+  - Check if `Views >= 1,000,000` for any post in the Data Tracking List.
+  - Optionally, verify if the post’s engagement rate aligns with historical norms to ensure it’s a genuine hit.
+- **Pseudocode**:
+  ```python
+  for post in data_tracking_list:
+      if post.views >= 1_000_000:
+          influencer = influencer_list[post.influencer_id]
+          alert_message = f"Good Performing Alert: {influencer.name}'s post ({post.post_id}) hit {post.views} views on {post.post_date}!"
+          send_alert(alert_message, post.post_url)
+  ```
+
+##### **Step 2: Underperforming Alert**
+- **Logic**:
+  - Compare post views and engagement rate to the influencer’s historical averages.
+  - Trigger if views < 50% of historical average or engagement rate < 50% of historical average (adjust thresholds as needed).
+- **Pseudocode**:
+  ```python
+  for post in data_tracking_list:
+      influencer = influencer_list[post.influencer_id]
+      if post.views < (influencer.typical_views * 0.5) or post.engagement_rate < (influencer.avg_engagement_rate * 0.5):
+          alert_message = f"Underperforming Alert: {influencer.name}'s post ({post.post_id}) has {post.views} views and {post.engagement_rate}% engagement, below historical averages ({influencer.typical_views}, {influencer.avg_engagement_rate}%)"
+          send_alert(alert_message, post.post_url)
+  ```
+
+##### **Step 3: Anomaly Alert (Fake Views/Engagements)**
+- **Logic**:
+  - **Fake Views**: Check for views > 10x historical average with engagement rate < 1% (or significantly below historical norm).
+  - **Fake Engagements**: Check for engagement rate > 3x historical average or analyze comment quality (if data available, e.g., via NLP for repetitive/spammy comments).
+  - **Other Anomalies**: Flag posts with unusual patterns (e.g., high views but zero comments).
+- **Pseudocode**:
+  ```python
+  for post in data_tracking_list:
+      influencer = influencer_list[post.influencer_id]
+      # Fake Views
+      if post.views > (influencer.typical_views * 10) and post.engagement_rate < 0.01:
+          alert_message = f"Anomaly Alert (Fake Views): {influencer.name}'s post ({post.post_id}) has {post.views} views but only {post.engagement_rate}% engagement, suspect fake views."
+          send_alert(alert_message, post.post_url)
+      # Fake Engagements
+      if post.engagement_rate > (influencer.avg_engagement_rate * 3):
+          alert_message = f"Anomaly Alert (Fake Engagements): {influencer.name}'s post ({post.post_id}) has unusually high engagement rate ({post.engagement_rate}% vs {influencer.avg_engagement_rate}% historical)."
+          send_alert(alert_message, post.post_url)
+      # Other Anomalies (e.g., high views, zero comments)
+      if post.views > influencer.typical_views and post.comments == 0:
+          alert_message = f"Anomaly Alert: {influencer.name}'s post ({post.post_id}) has {post.views} views but zero comments."
+          send_alert(alert_message, post.post_url)
+  ```
+
+#### **5. Send Alerts**
+- **Channels**: Send alerts via email, Slack, SMS, or a dashboard notification.
+- **Format**:
+  - Include Influencer Name, Post ID, Post URL, Key Metrics (views, engagement rate), and Reason for Alert.
+  - Example: “Good Performing Alert: Influencer JaneDoe’s post (ID: 12345) hit 1,200,000 views on 2025-07-17. View post: [URL].”
+- **Tools**:
+  - Use libraries like `smtplib` (Python) for email or `slack_sdk` for Slack notifications.
+  - Example:
+    ```python
+    def send_alert(message, post_url):
+        # Example: Send via email
+        import smtplib
+        from email.message import EmailMessage
+        msg = EmailMessage()
+        msg.set_content(f"{message}\nLink: {post_url}")
+        msg['Subject'] = 'Influencer Performance Alert'
+        msg['From'] = 'your_email@example.com'
+        msg['To'] = 'recipient@example.com'
+        with smtplib.SMTP('smtp.example.com', 587) as server:
+            server.login('username', 'password')
+            server.send_message(msg)
+    ```
+
+#### **6. Enhance Anomaly Detection (Optional)**
+For more robust anomaly detection, consider advanced techniques:
+- **Statistical Analysis**:
+  - Use z-scores to detect outliers: `z = (post.views - influencer.typical_views) / std_dev_views`.
+  - Flag posts with z-score > 3 (or < -3) for views/engagement.
+- **Machine Learning**:
+  - Train a model (e.g., Isolation Forest) on historical data to detect anomalous posts.
+  - Features: Views, engagement rate, follower growth, comment sentiment.
+- **Comment Analysis**:
+  - If comment data is available, use NLP to detect fake comments (e.g., repetitive phrases, generic comments like “Great post!”).
+  - Tools: `nltk`, `spacy`, or third-party services like Perspective API.
+
+#### **7. Monitor and Refine**
+- **Frequency**: Run the alert script hourly, daily, or weekly, depending on your needs.
+- **Validation**: Manually review a sample of alerts to ensure accuracy (e.g., confirm fake views with platform analytics).
+- **Refinement**:
+  - Adjust thresholds (e.g., 50% for underperforming, 10x for fake views) based on platform or category norms.
+  - Incorporate feedback from false positives/negatives to improve logic.

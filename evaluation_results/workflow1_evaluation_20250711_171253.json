@@ -1,0 +1,218 @@
+{
+  "workflow_name": "workflow1",
+  "workflow_config": {
+    "name": "workflow1",
+    "description": "Search and filter influencers (HypeAuditor logic)",
+    "type": "standard_answer",
+    "task_config": {
+      "initial_environment": "https://app.hypeauditor.com/recruiting/influencer-discovery",
+      "query": {
+        "lazy": "I wanna filter out the Instagram influencers that are in the AI niche or business niche in the US, who have over 50k followers, great account quality and contact information",
+        "diligent": "I am the head of influencer marketing in Wegic, which is an AI tool that helps users create websites just though simple chats. \n\nI want to find influencers that match with our needs. We need to find influencers that are in the AI , tech or business niche to help us amplify our presence online.\n\nYou may use the following keywords in \"keywords discovery\" in hypeauditor. (keyword appear anywhere)\n\"Technology\nInnovation\nSoftware\nWeb development\nProgrammer\nDeveloper\nFrontend\nBackend\nFullstack\nApplications\nTech reviews\nPC\nEntrepreneurship\nEntrepreneur\nBusinessperson\nCEO\nStartups\nFreelance\nDigital marketing\nBranding\nBusiness\nBusiness growth\nBusiness solutions\nBusiness coach\nArtificial Intelligence (AI)\nArtificial intelligence\nAI\nAI tools\nOpenAI\nChatGPT\nAlgorithms\nFuturistic technology\nAI innovation\nAI news\nAI applications\"\n\nPlease turn on the following filters as well:\nContact information -- has email or phone -- on\nAccount quality score -- >60\nFollower number --- 50k and above\nInfluencer country -- US\nAudience country(if available) > 10% belongs to US\n\nThen, after the result comes out, you have to crawl the following information from hypeauditor and make me a csv containing the following data:\nColumn 1: Creator name\nColumn 2: Creator profile link\nColumn 3: Platform\nColumn 4: Category\nColumn 5: Country\nColumn 6: Contact information\nColumn 7: Views\nColumn 8: Follower number\nColumn 9: Engagement Rate\nColumn 10: Engagement Rate Level\n\nAnd then, the task is done."
+      },
+      "deliverable": "A csv with all the data requested"
+    },
+    "evaluation_config": {
+      "criteria": {
+        "description": "The csv document must include the following data:",
+        "columns": [
+          {
+            "name": "Creator name",
+            "column_index": 1,
+            "required": true,
+            "checkpoint": "the creator profile link must match the creator name"
+          },
+          {
+            "name": "Creator profile link",
+            "column_index": 2,
+            "required": true,
+            "checkpoint": "the creator profile link must match the creator name"
+          },
+          {
+            "name": "Platform",
+            "column_index": 3,
+            "required": true,
+            "checkpoint": "the platform must be Instagram(as I instructed in the query)"
+          },
+          {
+            "name": "Category",
+            "column_index": 4,
+            "required": true,
+            "checkpoint": "A creator can belong to a lot of categories. But they have to be relevant or centred around the main categories I instructed. For example, if a creator is labeled as \"Entrepreneur\"\"monetization\"\"commercialization\", then he is someone appropriate because he is from the \"business\" category that I seek for. The label is defined by the most frequently occurring keywords found in creator's bio and profile content."
+          },
+          {
+            "name": "Country",
+            "column_index": 5,
+            "required": true,
+            "checkpoint": "Must be US (as I instructed)"
+          },
+          {
+            "name": "Contact information",
+            "column_index": 6,
+            "required": true,
+            "checkpoint": "the email should actually be correspondent to the creator's profile email on HypeAuditor"
+          },
+          {
+            "name": "Views",
+            "column_index": 7,
+            "required": false
+          },
+          {
+            "name": "Follower number",
+            "column_index": 8,
+            "required": true,
+            "checkpoint": "Follower number > 50000 as I instructed"
+          },
+          {
+            "name": "Engagement Rate",
+            "column_index": 9,
+            "required": false
+          },
+          {
+            "name": "Engagement Rate Level",
+            "column_index": 10,
+            "required": true,
+            "checkpoint": "there are five levels of Engagement rate quality as indicated in hypeauditor, which are: low, to be improved, average, good, excellent. The result must come from these five levels. The five levels are defined by the gap between the average engagement rate of the influencer and the engagement benchmark of the industry that the influencer belongs to."
+          }
+        ]
+      },
+      "file_matching": {
+        "output_pattern": "*.csv",
+        "ground_truth_pattern": "*_gt.csv",
+        "auto_detect": true
+      },
+      "scoring": {
+        "method": "auto",
+        "key_columns": [
+          "Creator name"
+        ],
+        "expected_columns": [
+          "Creator name",
+          "Creator profile link",
+          "Platform",
+          "Category",
+          "Country",
+          "Contact information",
+          "Views",
+          "Follower number",
+          "Engagement Rate",
+          "Engagement Rate Level"
+        ]
+      }
+    }
+  },
+  "evaluation_time": "2025-07-11T17:12:53.219411",
+  "final_score": 0.8333333333333334,
+  "task_results": [
+    {
+      "task_id": "workflow1",
+      "task_name": "workflow1",
+      "task_type": "standard_answer",
+      "result": {
+        "success": true,
+        "task_name": "workflow1",
+        "output_file": "D:\\backend-zz_dev\\agent\\src\\browser_agent\\evaluation_module\\agent_outputs\\workflow1\\influencer_data.csv",
+        "score": 0.8333333333333334,
+        "details": {
+          "evaluation_type": "csv_cellwise_generic",
+          "matched_cells": 50,
+          "total_cells": 60,
+          "match_rate": 0.8333333333333334,
+          "unmatched": [
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Platform",
+              "agent_value": "Missing row",
+              "gt_value": "Instagram"
+            },
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Category",
+              "agent_value": "Missing row",
+              "gt_value": "AI Tools"
+            },
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Creator profile link",
+              "agent_value": "Missing row",
+              "gt_value": "https://instagram.com/davidaicoach"
+            },
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Country",
+              "agent_value": "Missing row",
+              "gt_value": "US"
+            },
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Contact information",
+              "agent_value": "Missing row",
+              "gt_value": "david@aicoach.com"
+            },
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Views",
+              "agent_value": "Missing row",
+              "gt_value": "300000"
+            },
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Engagement Rate Level",
+              "agent_value": "Missing row",
+              "gt_value": "excellent "
+            },
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Creator name",
+              "agent_value": "Missing row",
+              "gt_value": "David AI Coach"
+            },
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Follower number",
+              "agent_value": "Missing row",
+              "gt_value": "120000"
+            },
+            {
+              "key": [
+                "David AI Coach"
+              ],
+              "column": "Engagement Rate",
+              "agent_value": "Missing row",
+              "gt_value": "4.1%"
+            }
+          ]
+        },
+        "summary": {
+          "matched_cells": 50,
+          "total_cells": 60,
+          "match_rate": 0.8333333333333334
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_tasks": 1,
+    "successful_tasks": 1,
+    "failed_tasks": 0,
+    "average_score": 0.8333333333333334
+  }
+}

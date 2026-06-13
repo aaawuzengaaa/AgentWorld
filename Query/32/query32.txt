@@ -1,0 +1,24 @@
+I am the marketing director of Sophiapro.ai, which is your growth agent that skyrocket your brand though AI CMO with encyclopedia. Now I want to analyze my brand's GEO performances on major search engines. My product has been on the market for six month and our systematic GEO approaches began to work 3 month ago. So I want to analyze the data within these 3 months and knowing what position my brand is at right now. 
+GEO stands for “generative engine optimization” which means the process of optimizing your website’s content to boost its visibility in AI-driven search engines
+
+To accomplish this task, you may follow the following instructions:
+1. Translate my website address into different search queries, ranked by relevance. 
+Based on the context, the relevant keywords might be  
+--  AI CMO
+-- AI influencer marketing
+-- AI SEO
+-- AI advertising etc. 
+So based on this, you can generate the following prompts and rank them by relevance
+-- Can AI do marketing work?
+-- Can AI do influencer marketing work?
+-- Is there an AI marketer?
+And then, you can choose the most relevant prompt (3-5 prompts) and analyze the brand saturation situation on these prompts. 
+You should analyze the following metrics in different LLMs:
+- Intent Volume (Estimated Search Volume per month)
+- Total Brands (Total brand count appearing in LLMs snippet)
+- Total Links (Total Links count in LLM search)
+- Brand visibility (The frequency of your brand mentions in the brand list)
+- Brand Rank (the rank of your brand in the brand list)
+- Your domain in links (the frequency of your domain appearing in the links)
+
+You can give me a sheet involving answers to this question and a screenshot when searching leveraging the corresponding prompt in the specific LLM.
