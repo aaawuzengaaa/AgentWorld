@@ -1,0 +1,54 @@
+Wegic Social Media Campaign BriefSubject: Wegic Social Media Campaign Brief
+
+Dear {INFLUENCER_NAME},
+
+I hope this email finds you well! My name is {SENDER_NAME}, and I'm reaching out from the marketing team at Wegic.
+
+Please find attached our comprehensive campaign brief, which contains all the essential information you'll need to get started:
+
+• Campaign Objectives: Clear goals and what we hope to achieve together
+• Content Requirements (Your primary focus): Detailed specifications for the type of content we're looking for, including format, style guidelines, and key messaging points
+• Deliverables: Specific content pieces required and their specifications
+• Compensation Details: Payment structure and terms
+• Usage Rights: How the content will be used and for how long
+
+Also, just as a reminder to ensure the success of this campaign, please note these critical dates:
+
+🗓️ Content Submission Deadline: {CONTENT_SUBMISSION_DATE}
+🗓️ Final Deadline for Publishing: {FINAL_DEADLINE_DATE}
+
+Please be aware that missing the final deadline may result in contract breach implications as outlined in the attached brief.
+
+**Review Process**:
+1. Initial content review within {REVIEW_TIMEFRAME} of submission
+2. Feedback and revision requests (if needed)
+3. Final approval and go-live authorization
+4. Performance tracking and reporting
+
+**Next Steps**
+
+We're excited about the possibility of working together and would love to move forward with this partnership. Here's what we need from you:
+
+1. **Review the attached campaign brief thoroughly**
+2. **Confirm your participation** by replying to this email by {CONFIRMATION_DEADLINE}
+3. **Ask any questions** you might have about the campaign requirements
+4. **Confirm your availability** for the specified timeline
+
+If you're interested in proceeding, please reply with your confirmation and any questions you might have. We're here to support you throughout the entire process and want to ensure you have everything you need to create amazing content that resonates with your audience.
+
+We believe this partnership will be mutually beneficial and look forward to creating something amazing together. Your unique voice and creative expertise are exactly what will make this campaign successful.
+
+Thank you for considering this opportunity, and we look forward to hearing from you soon!
+
+Best regards,
+
+{SENDER_NAME}
+{SENDER_TITLE}
+Wegic Marketing Team
+{CONTACT_EMAIL}
+{CONTACT_PHONE}
+
+---
+**P.S.** If you have any immediate questions or concerns, please don't hesitate to reach out directly. We're committed to making this collaboration as smooth and successful as possible for everyone involved.
+
+**Attachment**: Wegic_Campaign_Brief_{CAMPAIGN_NAME}.pdf
