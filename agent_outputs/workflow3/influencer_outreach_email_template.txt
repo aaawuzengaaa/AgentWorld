@@ -1,0 +1,22 @@
+Subject: Collaboration Opportunity: Revolutionize Web Design with Wegic!
+
+Hi {{influencer_name}},
+
+My name is {{your_name}} and I'm reaching out from Wegic, an innovative AI tool that's changing the game for website creation. We've developed a platform where anyone can build their dream website simply by chatting with our AI ¨C no coding, no design skills needed!
+
+We're incredibly proud to have already empowered over half a million users to bring their online visions to life, and the feedback has been overwhelmingly positive. Now, as we expand our global reach, we're looking for elite creators like you to help us spread the word and inspire even more people.
+
+Your content on {{platform_of_interest}} truly stands out, and we believe your audience would be fascinated by how effortlessly they can create stunning websites with Wegic. We envision a partnership where you showcase the magic of Wegic, demonstrating its ease of use and powerful capabilities to your engaged followers.
+
+We're launching a special campaign running from June 10th to July 10th, focusing on platforms like Instagram, TikTok, and YouTube. We're flexible and eager to discuss how we can create compelling content together that resonates with your unique style and audience.
+
+Would you be open to a brief chat next week to explore this exciting collaboration further? I'm confident that Wegic offers a unique value proposition that your audience will love.
+
+Looking forward to hearing from you!
+
+Best regards,
+
+{{your_name}}
+{{your_title}}
+Wegic
+{{your_website}}
